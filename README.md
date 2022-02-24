@@ -14,8 +14,16 @@ sudo nano /etc/apt/sources.list
 
 ## programs
 
+### shell
+
 ```
-sudo apt install netsurf-gtk vlc cmus htop pandoc ripgrep rclone wget focuswriter
+sudo apt install git htop pandoc ripgrep rclone wget
+```
+
+### gui
+
+```
+sudo apt install netsurf-gtk vlc cmus focuswriter
 ```
 
 ### skype
@@ -32,14 +40,14 @@ wget https://github.com/barnumbirr/zola-debian/releases/download/v0.15.3-1/zola_
 sudo dpkg -i zola_<version>_amd64_debian_<debian_version>.deb
 ```
 
-## Maintenance
+## maintenance
 
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-## Further Set Up
+## further set up
 
 - [Looks](/looks.md)
 - [Usability](/use.md)
