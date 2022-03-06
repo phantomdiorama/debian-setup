@@ -8,6 +8,7 @@
       - Description: Map Caps Lock to Backspace
       - Command: `setxkbmap -option caps:backspace`
  4. Click *OK*. Click *Close*.
+ 5. Do 1 to 4 for `setxkbmap -option ralt:enter` (**does this work??**)
 
 Log out and log into the desktop again to confirm
 

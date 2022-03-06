@@ -21,7 +21,7 @@ sudo apt install htop pandoc ripgrep rclone wget cmus
 ### gui
 
 ```
-sudo apt install netsurf-gtk vlc focuswriter vim-gtk rofi
+sudo apt install netsurf-gtk vlc focuswriter rofi
 ```
 
 ### skype
