@@ -1,10 +1,8 @@
-# debian-setup
- 
 ## debian install
 
 Debian XFCE Non-free: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/
 
-## sources
+## sources (optional)
 
 add `contrib` and `non-free` to **sources.list** (see [here](https://wiki.debian.org/SourcesList))
 
@@ -17,13 +15,13 @@ sudo nano /etc/apt/sources.list
 ### shell
 
 ```
-sudo apt install git htop pandoc ripgrep rclone wget
+sudo apt install htop pandoc ripgrep rclone wget cmus 
 ```
 
 ### gui
 
 ```
-sudo apt install netsurf-gtk vlc cmus focuswriter
+sudo apt install netsurf-gtk vlc focuswriter vim-gtk rofi
 ```
 
 ### skype

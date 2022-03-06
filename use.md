@@ -12,3 +12,7 @@
 Log out and log into the desktop again to confirm
 
 Reference: https://github.com/susam/dotfiles/blob/master/docs/debian-setup.md
+
+### Utilities
+
+- [bashmarks](https://github.com/huyng/bashmarks)
