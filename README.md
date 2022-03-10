@@ -2,7 +2,7 @@
 
 Debian XFCE Non-free: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/amd64/iso-hybrid/
 
-## sources (optional)
+### sources (optional)
 
 add `contrib` and `non-free` to **sources.list** (see [here](https://wiki.debian.org/SourcesList))
 
@@ -21,7 +21,7 @@ sudo apt install htop pandoc ripgrep rclone wget cmus
 ### gui
 
 ```
-sudo apt install netsurf-gtk vlc focuswriter rofi
+sudo apt install netsurf-gtk vlc focuswriter rofi geany
 ```
 
 ### skype
@@ -38,15 +38,16 @@ wget https://github.com/barnumbirr/zola-debian/releases/download/v0.15.3-1/zola_
 sudo dpkg -i zola_<version>_amd64_debian_<debian_version>.deb
 ```
 
-## maintenance
+## Looks
+
+get greybird gtk theme & papirus icons:
 
 ```
-sudo apt update
-sudo apt upgrade
+sudo apt install greybird-gtk-theme
+sudo apt install papirus-icon-theme
 ```
 
 ## further set up
 
-- [Looks](/looks.md)
 - [Usability](/use.md)
 - [Firefox addons](/firefox.md)
