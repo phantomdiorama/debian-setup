@@ -20,4 +20,5 @@ Reference: https://github.com/susam/dotfiles/blob/master/docs/debian-setup.md
 
 ### Utilities
 
+- [keyd](https://github.com/rvaiya/keyd)
 - [bashmarks](https://github.com/huyng/bashmarks)

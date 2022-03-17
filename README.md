@@ -51,3 +51,4 @@ sudo apt install papirus-icon-theme
 
 - [Usability](/use.md)
 - [Firefox addons](/firefox.md)
+- [dots](/dots.md)
